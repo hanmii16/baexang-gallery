@@ -1,0 +1,87 @@
+#title{
+    
+}
+#title .wrap{ 
+  
+  position: relative;
+} 
+#title .wrap .slide{
+  position: relative;
+}
+#title .wrap .slide img{
+  width: 100%;
+}
+#title .wrap .slide .date{ 
+  font-size: 25px;
+  color: #fff;
+  font-style: italic;
+  position: absolute;
+  bottom: 290px;
+  margin-left: 30px;
+}
+#title .wrap .slide h2{
+  position: absolute;
+  bottom: 180px;
+  font-size: 60px;
+  color: #fff;
+  margin-left: 30px;
+}
+#title .wrap .slide a{ 
+  position: absolute;
+  bottom: 100px;
+  color: #fff;
+  margin-left: 30px;
+  font-size: 25px;
+  /*! position: relative; */
+}
+#title .wrap .slide a::before{
+  content: "+";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+#title .wrap .slide a::after{
+  content: "";
+  width: 65px;
+  height: 56px;
+  display: inline-block;
+  border: 1px solid white;
+  vertical-align: middle;
+  position: absolute;
+  top: -19px;
+}
+#title .wrap .slide a span{
+  
+}
+#title .slick-next{
+  width: 100%;
+  height: 100%;
+}
+#title .slick-next::before{ 
+  content: "";
+  display: block;
+  background-image: url(../img/arrow-next.png);
+  width: 43px;
+  height: 11px;
+  position: absolute;
+  bottom: 75px;
+  right: 62px;
+  z-index: 2;
+}
+#title .slick-prev{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#title .slick-prev::before{
+  content: "";
+  display: block;
+  background-image: url(../img/arrow-prev.png);
+  width: 42px;
+  height: 10px;
+  position: absolute;
+  bottom: 75px;
+  right: 95px;
+
+  z-index: 2;
+}

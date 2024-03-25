@@ -1,0 +1,235 @@
+/* INSIGHT */
+#insight {
+  padding-top:250px;
+  margin-top:50px;
+}
+section#insight > .wrap {
+  text-align: center;
+  margin-bottom: 80px;
+  width: 1650px;
+  }
+section#insight .wrap small {
+
+  display: block;
+  font-size: 20px;
+  color: #c9ab81;
+  }
+section#insight article .slide {
+  display: flex;
+  padding: 0px 40px;
+
+  align-items: center;
+}
+section#insight article .flex{
+}
+section#insight span{
+  
+  display: block;
+  text-align: center;
+}
+section#insight span a::before {
+  content: "";
+  background-image: url(../img/add.svg);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-position-x: 63%;
+  background-position-y: 0;
+  vertical-align: -3px;
+  margin-right: 9px;
+}
+section#insight span a {
+  
+  font-size: 22px;
+  color: #211e1f;
+  display: inline-block;
+  position: relative;
+  height: 60px;
+}
+section#insight span a::after{
+  content: "";
+  background-color:#f1f1f1;
+  width: 65px;
+  height: 56px;
+  position: absolute;
+  left: 18px;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+section#insight .wrap h3 {
+    
+  margin-top: 20px;
+  }
+article span:nth-child(1) {
+
+  font-size: 40px;
+}
+article span:nth-child(2) {
+  font-size: 40px;
+  font-weight: 300;
+  color: #e0e0e0;
+  transform: translateY(32%);
+}
+article span:nth-child(3) {
+
+  font-size: 30px;
+  color: #c9ab81;
+  transform: translateY(80%);
+}
+article .flex ul li {
+
+  padding: 15px 20px;
+}
+article .flex ul li img {
+
+}
+article .flex ul li p {
+
+  font-size: 15px;
+  color: #333;
+  margin-top: 10px;
+  font-weight: 600;
+}
+section#insight ul{
+
+  display: flex;
+  width: 100%;
+}
+/* ABOUT BAEXANG*/
+#about {
+  margin: 100px 50px 0 50px;
+  position: relative;
+  height: 740px;
+}
+section#about h4{
+  font-size: 135px;
+  text-align: right;
+  color: #f8f8f8;
+  height: 129px;
+
+}
+section#about article{
+
+  position: relative;
+  padding-left: calc(50% - -20px);
+  padding-top: 170px;
+  padding-bottom: 40px;
+  background-color: #f8f8f8;
+  height: 450px;
+  margin-left: 145px;
+}
+section#about article img{
+                  
+  position: absolute;
+  bottom: 130px;
+  left: -120px;
+}
+section#about span {
+  font-size: 175px;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e4e4e4;
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  letter-spacing: 1px;
+  text-align: right;
+  line-height: 0.95;
+}
+section#about small{
+
+  display: block;
+}
+section#about h3{
+
+  margin-top: 20px;
+}
+section#about p{
+  
+  font-size: 18px;
+  margin-top: 60px;
+  line-height: 1.5;
+}
+/*ARTIST*/
+#artist {
+  
+  padding: 200px 0;
+}
+section#artist .wrap{
+
+  text-align: center;
+  margin-bottom: 80px;
+  width: 1650px;
+}
+section#artist .wrap h3 {
+
+  padding-top: 20px;
+}
+section#artist .flex{
+
+  width: 94%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+section#artist article ul{
+
+  position: relative;
+  margin-right: 55px;
+  width: 330px;
+}
+section#artist article ul li{
+  
+  width: 100%;
+  height: 100%;
+}
+section#artist article ul li img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section#artist ul {
+  
+  margin-top: 60px;
+  text-align: center;
+}
+section#artist ul a{
+
+  font-size: 22px;
+  color: #211e1f;
+  display: block;
+  position: relative;
+  height: 60px;
+}
+/*NEWS & NOTICE*/
+#notice {
+
+  padding: 150px 0;
+  margin: 0 50px 50px;
+  background-color: #f8f8f8;
+}
+section#notice .wrap{
+
+  text-align: center;
+  margin-bottom: 85px;
+}
+section#notice .wrap h3{
+
+  margin-top: 25px;
+}
+section#notice ul{
+  
+  text-align: center;
+  margin-top: 60px;
+}
+section#notice ul a {
+
+  font-size: 22px;
+  color: #211e1f;
+  display: block;
+  position: relative;
+  height: 60px;
+}
+

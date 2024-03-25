@@ -1,0 +1,43 @@
+header {
+  
+}
+
+header .wrap {
+   
+  align-items: center; /* 자식 요소를 수직으로 가운데 정렬합니다 */
+  justify-content: end;
+}
+
+header .wrap h1 {
+  margin: 0; /* 기본 마진 제거 */
+  margin-right: auto;
+  /*! width: 200px; */
+}
+
+header .wrap ul {
+  
+}
+
+header .wrap ul li {
+  padding: 10px 20px;
+}
+header .wrap h1 a{
+  font-size: 0;
+  display: block;
+  background-image: url(../img/logo.png);
+  width: 126px;
+  height: 50px;
+  }
+
+header .wrap ul li a {
+  
+  font-size: 24px;
+}
+header .wrap .right > a.ham {
+  
+  font-size: 0;
+  background-image: url(../img/menu.svg);
+  display: block;
+  width: 21px;
+  height: 21px;
+}
