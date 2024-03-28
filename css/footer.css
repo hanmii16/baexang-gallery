@@ -1,20 +1,20 @@
 footer{
-   background-color: #ccc;
+   background-color: #e4dfdf;
  }
 footer .fbottom{
-   padding: 70px 70px;
+   padding: 60px 60px;
    display: flex;
-   max-width: 1900px;
+   color: #fff;
  }
-footer .wrap {
-  margin-left: 200px;
+footer .left {
+  margin-left: 80px;
  }
-footer .wrap h4 {
+footer .left h4 {
  
-  font-size: 50px;
-  color: white;
+  font-size: 40px;
+  margin-bottom: 25px;
  }
-footer .wrap h4 a {
+footer .left h4 a {
    
   font-size: 0;
   background-image: url(../img/logo.png);
@@ -22,34 +22,28 @@ footer .wrap h4 a {
   height: 50px;
   display: inline-block;
  }
-footer .wrap ul {
- 
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
-  grid-row-gap: 20px;
-  color: #fff;
-  font-size: 18px;
- }
-footer .wrap ul li{
+footer .left ul.fnb{
+}
+footer .left ul.fnb li{
   
 }
-footer .wrap ul li:nth-child(4) {
-  
-  grid-column: 1 / span 2;
- }
-footer .wrap ul li a:nth-child(1){
-  
-  /*! margin-left: 0; */
-}
-footer .wrap ul li a:nth-child(2){
+footer .left ul.fnb li a{
   
 }
-footer .wrap address{
- 
-  display: grid;
- }
-footer .wrap button {
- 
- }
+footer .left ul.fnb li:nth-child(1) a{
+  
+}
+footer .left ul.fnb li:nth-child(2) a{
+  
+  margin-left: 20px;
+}
+footer .left address{
+  
+  line-height: 2;
+}
+footer .left address span.line{
+  display: inline-block;
+}
+footer .left address span.block{
+  /*! display: block; */
+}
